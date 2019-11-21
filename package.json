@@ -1,0 +1,40 @@
+{
+  "name": "tb-test",
+  "version": "0.0.1",
+  "description": "Truebase test API service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest --runInBand --detectOpenHandles --forceExit -i 'api.test.js'",
+    "dev": "NODE_ENV=development DB_URI=mongodb://localhost:27017/tb_test nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:create_git_for_me.git"
+  },
+  "keywords": [],
+  "author": "Igor Svehla",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "fastify": "^2.10.0",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.5.32",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.4",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "fastify-swagger": "^2.4.0",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
