@@ -1,5 +1,5 @@
 /**
- * TB API test Main entry point
+ * API test Main entry point
  * connects to DB, and starts the server
  */
 
@@ -69,7 +69,7 @@ const start = async () => {
   server.get('/', async (request, reply) => {
     reply
       .code(200)
-      .send('Truebase Test Microservice running');
+      .send('Test Microservice running');
   });
   // add alive and ready routes
   server.get('/health', async (request, reply) => {
