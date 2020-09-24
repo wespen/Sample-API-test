@@ -1,4 +1,4 @@
-# Truebase Code Test challange microservice #
+# Code Test challange microservice #
 
 Description of API routes is available in `/swagger` endpoint in development environment
 
