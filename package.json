@@ -1,7 +1,7 @@
 {
-  "name": "tb-test",
+  "name": "api-test",
   "version": "0.0.1",
-  "description": "Truebase test API service",
+  "description": "Sample test API service",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
